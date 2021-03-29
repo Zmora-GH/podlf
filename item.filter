@@ -71,16 +71,16 @@ ItemDisplay[r12]: %ORANGE%%RUNENAME% %TAN%[12]
 ItemDisplay[r13]: %ORANGE%%RUNENAME% %TAN%[13]
 ItemDisplay[r14]: %ORANGE%%RUNENAME% %TAN%[14]
 ItemDisplay[r15]: %ORANGE%%RUNENAME% %TAN%[15]
-ItemDisplay[r16]: %ORANGE%%RUNENAME% %TAN%[16]
-ItemDisplay[r17]: %ORANGE%%RUNENAME% %TAN%[17]
-ItemDisplay[r18]: %ORANGE%%RUNENAME% %TAN%[18]
-ItemDisplay[r19]: %ORANGE%%RUNENAME% %TAN%[19]
-ItemDisplay[r20]: %ORANGE%%RUNENAME% %TAN%[20]
+ItemDisplay[r16]: %PURPLE%%RUNENAME% %TAN%[16]
+ItemDisplay[r17]: %PURPLE%%RUNENAME% %TAN%[17]
+ItemDisplay[r18]: %PURPLE%%RUNENAME% %TAN%[18]
+ItemDisplay[r19]: %PURPLE%%RUNENAME% %TAN%[19]
+ItemDisplay[r20]: %PURPLE%%RUNENAME% %TAN%[20]
 ItemDisplay[r21]: %PURPLE%%RUNENAME% %TAN%[21]
 ItemDisplay[r22]: %PURPLE%%RUNENAME% %TAN%[22]
 ItemDisplay[r23]: %PURPLE%%RUNENAME% %TAN%[23]
-ItemDisplay[r24]: %PURPLE%%RUNENAME% %TAN%[24]
-ItemDisplay[r25]: %PURPLE%%RUNENAME% %TAN%[25]
+ItemDisplay[r24]: %RED%%RUNENAME% %TAN%[24]
+ItemDisplay[r25]: %RED%%RUNENAME% %TAN%[25]
 ItemDisplay[r26]: %RED%%RUNENAME% %TAN%[26]
 ItemDisplay[r27]: %RED%%RUNENAME% %TAN%[27]
 ItemDisplay[r28]: %RED%%RUNENAME% %TAN%[28]
@@ -92,17 +92,17 @@ ItemDisplay[r33]: %RED%%RUNENAME% %TAN%[33]
 
 
 // All Charms
-ItemDisplay[cm3 MAG !ID ILVL>90]: %PURPLE%»»»%BLUE%  %NAME%  %ORANGE%[%WHITE%%ILVL%%ORANGE%]
-ItemDisplay[cm1 MAG !ID]: %GREEN%»%BLUE%  %NAME%  %GRAY%[%ILVL%]
-ItemDisplay[cm2 MAG !ID]: %TAN%»»%BLUE%  %NAME%  %GRAY%[%ILVL%]
-ItemDisplay[cm3 MAG !ID]: %PURPLE%»»»%BLUE%  %NAME%  %GRAY%[%ILVL%]
-ItemDisplay[cm3 MAG ILVL>90]: %NAME% %ORANGE%[%WHITE%%ILVL%%ORANGE%]
+ItemDisplay[cm3 MAG !ID ILVL>90]: %PURPLE% Grand %ORANGE%[%WHITE%%ILVL%%ORANGE%]
+ItemDisplay[cm1 MAG !ID]: %PURPLE% Small %GRAY%[%ILVL%]
+ItemDisplay[cm2 MAG !ID]: %PURPLE% Large %GRAY%[%ILVL%]
+ItemDisplay[cm3 MAG !ID]: %PURPLE% Grand %GRAY%[%ILVL%]
+ItemDisplay[cm3 MAG ILVL>90]: %PURPLE% %NAME% %ORANGE%[%WHITE%%ILVL%%ORANGE%]
 ItemDisplay[cm1 OR cm2 OR cm3]: %NAME% %GRAY%[%ILVL%]
 
 
 
 // Rings and amulets
-ItemDisplay[(rin OR amu) RARE !ID]: %TAN%»» %YELLOW%%NAME%%TAN% ««
+ItemDisplay[(rin OR amu) RARE !ID]: %TAN%» %YELLOW%%NAME%%TAN% «
 ItemDisplay[(rin OR amu) MAG ILVL>90]: %NAME% %WHITE%[%ILVL%]
 ItemDisplay[(rin OR amu) MAG]: %NAME% %GRAY%[%ILVL%]
 
@@ -115,26 +115,22 @@ ItemDisplay[(aq2 OR cq2) (NMAG OR MAG) CLVL>5]:
 // (show only for starting characters)
 ItemDisplay[gpm OR opm OR opl OR ops OR gps OR gpl AND CLVL>1]:
 
-// Wirt's leg :)
-ItemDisplay[leg]: %NAME%
-
-// Make stamina, keys, scrolls and thawing/antidote potions barely visible
-// after first X levels
+// Key Tp Id Leg
 ItemDisplay[key]: %GRAY%Key
-
 ItemDisplay[tsc]: %BLUE%T%WHITE%p
 ItemDisplay[isc]: 
+ItemDisplay[leg]: %NAME%
 
 ItemDisplay[vps]: %GREEN%[%GRAY%S%GREEN%]
 ItemDisplay[wms]: %GREEN%[%GRAY%T%GREEN%]
 ItemDisplay[yps]: %GREEN%[%GRAY%A%GREEN%]
 
 // Show possible expensive, fewer-socketed white/magic items with vendor price
-ItemDisplay[(WP11 OR WP12 OR WP13) (NMAG OR MAG) !RW SOCK<2 PRICE>24999]: %WHITE%%NAME% ($ %PRICE%) // staves, wands and scepters
-ItemDisplay[CL1 (NMAG OR MAG) !RW SOCK<2 PRICE>24999]: %WHITE%%NAME% ($ %PRICE%) // Druid pelts
-ItemDisplay[CL2 (NMAG OR MAG) !RW SOCK<2 PRICE>24999]: %WHITE%%NAME% ($ %PRICE%) // Barbarian helmets
-ItemDisplay[CL4 (NMAG OR MAG) !RW SOCK<2 PRICE>24999]: %WHITE%%NAME% ($ %PRICE%) // Necromancer shields
-ItemDisplay[CL6 (NMAG OR MAG) !RW SOCK<2 PRICE>24999]: %WHITE%%NAME% ($ %PRICE%) // Sorceress weapons
+ItemDisplay[(WP11 OR WP12 OR WP13) (NMAG OR MAG) !RW SOCK<2 PRICE>24999]: %WHITE%%NAME%  %TAN%$$$ 
+ItemDisplay[CL1 (NMAG OR MAG) !RW SOCK<2 PRICE>24999]: %WHITE%%NAME% %TAN%$$$ // Druid pelts
+ItemDisplay[CL2 (NMAG OR MAG) !RW SOCK<2 PRICE>24999]: %WHITE%%NAME% %TAN%$$$ // Barbarian helmets
+ItemDisplay[CL4 (NMAG OR MAG) !RW SOCK<2 PRICE>24999]: %WHITE%%NAME% %TAN%$$$ // Necromancer shields
+ItemDisplay[CL6 (NMAG OR MAG) !RW SOCK<2 PRICE>24999]: %WHITE%%NAME% %TAN%$$$ // Sorceress weapons
 
 
 
@@ -168,7 +164,7 @@ ItemDisplay[EXC NMAG !RW SOCK>1]: %NAME% [%SOCKETS%]%RED%
 ItemDisplay[EXC NMAG !RW]:
 ItemDisplay[EXC MAG ETH SOCK>1]: ETH %NAME% [%SOCKETS%]%RED%
 ItemDisplay[EXC MAG SOCK>1]: %NAME% [%SOCKETS%]%RED%
-ItemDisplay[EXC MAG]:
+ItemDisplay[EXC MAG]: %NAME%
 ItemDisplay[EXC ETH RARE SOCK>0]: ETH %NAME% [%SOCKETS%]%RED%
 ItemDisplay[EXC ETH RARE]: ETH %NAME%%RED%
 ItemDisplay[EXC RARE SOCK>0]: %NAME% [%SOCKETS%]%RED%
@@ -189,7 +185,7 @@ ItemDisplay[ELT NMAG !RW SOCK>1]: %NAME% [%SOCKETS%]%RED%
 ItemDisplay[ELT NMAG !RW]: %NAME%%RED%
 ItemDisplay[ELT MAG ETH SOCK>1]: ETH %NAME% [%SOCKETS%]%RED%
 ItemDisplay[ELT MAG SOCK>1]: %NAME% [%SOCKETS%]%RED%
-ItemDisplay[ELT MAG]: %NAME%%RED%
+ItemDisplay[ELT MAG]: %NAME%
 ItemDisplay[ELT ETH RARE SOCK>0]: ETH %NAME% [%SOCKETS%]%RED%
 ItemDisplay[ELT ETH RARE]: ETH %NAME%%RED%
 ItemDisplay[ELT RARE SOCK>0]: %NAME% [%SOCKETS%]%RED%

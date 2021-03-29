@@ -1,9 +1,6 @@
-// -- CLF -- 
-
 // GOLD
 ItemDisplay[CLVL>1 GOLD<1000]:
 ItemDisplay[CLVL>60 GOLD<5000]:
-
 
 // POTIONS
 ItemDisplay[hp1 CLVL<15]: %RED%[%GRAY%HP%RED%]
@@ -30,8 +27,6 @@ ItemDisplay[mp5]: %BLUE%[%WHITE%SMP%BLUE%] // Super Mana potion
 ItemDisplay[rvs]: %PURPLE%[%GRAY%R35%PURPLE%] // Rejuvenation potion
 ItemDisplay[rvl]: %PURPLE%[%WHITE%R70%PURPLE%] // Full Rejuvenation potion
 
-
-
 // Gems
 ItemDisplay[(gfv OR gfw OR gfg OR gfr OR gfb OR gfy OR skf) DIFFICULTY>1]:
 ItemDisplay[(gsv OR gsw OR gsg OR gsr OR gsb OR gsy OR sku) DIFFICULTY>1]:
@@ -51,8 +46,6 @@ ItemDisplay[gpr]: %ORANGE%Perfect
 ItemDisplay[gpb]: %ORANGE%Perfect
 ItemDisplay[gpy]: %ORANGE%Perfect
 ItemDisplay[skz]: %ORANGE%Perfect
-
-
 
 // Rune
 ItemDisplay[RW]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
@@ -90,7 +83,6 @@ ItemDisplay[r31]: %RED%%RUNENAME% %TAN%[31]
 ItemDisplay[r32]: %RED%%RUNENAME% %TAN%[32]
 ItemDisplay[r33]: %RED%%RUNENAME% %TAN%[33]
 
-
 // All Charms
 ItemDisplay[cm3 MAG !ID ILVL>90]: %PURPLE% Grand %ORANGE%[%WHITE%%ILVL%%ORANGE%]
 ItemDisplay[cm1 MAG !ID]: %PURPLE% Small %GRAY%[%ILVL%]
@@ -99,28 +91,18 @@ ItemDisplay[cm3 MAG !ID]: %PURPLE% Grand %GRAY%[%ILVL%]
 ItemDisplay[cm3 MAG ILVL>90]: %PURPLE% %NAME% %ORANGE%[%WHITE%%ILVL%%ORANGE%]
 ItemDisplay[cm1 OR cm2 OR cm3]: %NAME% %GRAY%[%ILVL%]
 
-
-
 // Rings and amulets
 ItemDisplay[(rin OR amu) RARE !ID]: %TAN%» %YELLOW%%NAME%%TAN% «
 ItemDisplay[(rin OR amu) MAG ILVL>90]: %NAME% %WHITE%[%ILVL%]
 ItemDisplay[(rin OR amu) MAG]: %NAME% %GRAY%[%ILVL%]
 
-
-
-// hide white/magic arrows and bolts (show only for starting characters)
+// Trsh Key Tp Id Leg +
 ItemDisplay[(aq2 OR cq2) (NMAG OR MAG) CLVL>5]:
-
-//hide Choking, Exploding, Fulminating, Oil, Rancid, Strangling potions
-// (show only for starting characters)
 ItemDisplay[gpm OR opm OR opl OR ops OR gps OR gpl AND CLVL>1]:
-
-// Key Tp Id Leg
 ItemDisplay[key]: %GRAY%Key
 ItemDisplay[tsc]: %BLUE%T%WHITE%p
 ItemDisplay[isc]: 
 ItemDisplay[leg]: %NAME%
-
 ItemDisplay[vps]: %GREEN%[%GRAY%S%GREEN%]
 ItemDisplay[wms]: %GREEN%[%GRAY%T%GREEN%]
 ItemDisplay[yps]: %GREEN%[%GRAY%A%GREEN%]
@@ -131,8 +113,6 @@ ItemDisplay[CL1 (NMAG OR MAG) !RW SOCK<2 PRICE>24999]: %WHITE%%NAME% %TAN%$$$ //
 ItemDisplay[CL2 (NMAG OR MAG) !RW SOCK<2 PRICE>24999]: %WHITE%%NAME% %TAN%$$$ // Barbarian helmets
 ItemDisplay[CL4 (NMAG OR MAG) !RW SOCK<2 PRICE>24999]: %WHITE%%NAME% %TAN%$$$ // Necromancer shields
 ItemDisplay[CL6 (NMAG OR MAG) !RW SOCK<2 PRICE>24999]: %WHITE%%NAME% %TAN%$$$ // Sorceress weapons
-
-
 
 // NORMAL ITEMS
 ItemDisplay[NORM CLVL>4  NMAG !RW INF]: // hide inferior items from char level 5
@@ -156,15 +136,13 @@ ItemDisplay[NORM RW]:   %NAME% (runeword)
 ItemDisplay[NORM SET SOCK=0]:   %NAME%
 ItemDisplay[NORM SET]: %NAME% [%SOCKETS%]
 
-
-
 // EXCEPTIONAL ITEMS
 ItemDisplay[EXC NMAG ETH !RW SOCK>1]: ETH %NAME% [%SOCKETS%]%RED%
 ItemDisplay[EXC NMAG !RW SOCK>1]: %NAME% [%SOCKETS%]%RED%
-ItemDisplay[EXC NMAG !RW]:
+ItemDisplay[EXC NMAG !RW]: %NAME%%RED%
 ItemDisplay[EXC MAG ETH SOCK>1]: ETH %NAME% [%SOCKETS%]%RED%
 ItemDisplay[EXC MAG SOCK>1]: %NAME% [%SOCKETS%]%RED%
-ItemDisplay[EXC MAG]: %NAME%
+ItemDisplay[EXC MAG]: %NAME%%RED%
 ItemDisplay[EXC ETH RARE SOCK>0]: ETH %NAME% [%SOCKETS%]%RED%
 ItemDisplay[EXC ETH RARE]: ETH %NAME%%RED%
 ItemDisplay[EXC RARE SOCK>0]: %NAME% [%SOCKETS%]%RED%
@@ -177,15 +155,13 @@ ItemDisplay[EXC RW]: %NAME% (runeword)%RED%
 ItemDisplay[EXC SET SOCK>0]: %NAME% [%SOCKETS%]%RED%
 ItemDisplay[EXC SET]: %NAME%%RED%
 
-
-
 // ELITE ITEMS
 ItemDisplay[ELT NMAG ETH !RW SOCK>1]: ETH %NAME% [%SOCKETS%]%RED%
 ItemDisplay[ELT NMAG !RW SOCK>1]: %NAME% [%SOCKETS%]%RED%
 ItemDisplay[ELT NMAG !RW]: %NAME%%RED%
 ItemDisplay[ELT MAG ETH SOCK>1]: ETH %NAME% [%SOCKETS%]%RED%
 ItemDisplay[ELT MAG SOCK>1]: %NAME% [%SOCKETS%]%RED%
-ItemDisplay[ELT MAG]: %NAME%
+ItemDisplay[ELT MAG]: %NAME%%RED%
 ItemDisplay[ELT ETH RARE SOCK>0]: ETH %NAME% [%SOCKETS%]%RED%
 ItemDisplay[ELT ETH RARE]: ETH %NAME%%RED%
 ItemDisplay[ELT RARE SOCK>0]: %NAME% [%SOCKETS%]%RED%

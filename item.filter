@@ -122,8 +122,8 @@ ItemDisplay[leg]: %NAME%
 // after first X levels
 ItemDisplay[key]: %GRAY%Key
 
-ItemDisplay[tsc]: %BLUE%P%WHITE%ortal
-ItemDisplay[isc]: %GREEN%I%WHITE%dentify
+ItemDisplay[tsc]: %BLUE%{tp}
+ItemDisplay[isc]: 
 
 ItemDisplay[vps]: %GREEN%[%GRAY%S%GREEN%]
 ItemDisplay[wms]: %GREEN%[%GRAY%T%GREEN%]

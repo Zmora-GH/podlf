@@ -1,6 +1,5 @@
 // -- CLF -- 
 
-
 // GOLD
 ItemDisplay[CLVL>1 GOLD<1000]:
 ItemDisplay[CLVL>60 GOLD<5000]:
@@ -12,51 +11,100 @@ ItemDisplay[hp2 CLVL<15]: %RED%[%WHITE%HP%RED%]
 ItemDisplay[mp1 CLVL<15]: %BLUE%[%GRAY%MP%BLUE%]
 ItemDisplay[mp2 CLVL<15]: %BLUE%[%WHITE%MP%BLUE%]
 ItemDisplay[hp1 OR mp1]:
-
 ItemDisplay[hp2 CLVL<20]: %RED%[%GRAY%HP%RED%]
 ItemDisplay[hp3 CLVL<20]: %RED%[%WHITE%HP%RED%]
 ItemDisplay[mp2 CLVL<20]: %BLUE%[%GRAY%MP%BLUE%]
 ItemDisplay[mp3 CLVL<20]: %BLUE%[%WHITE%MP%BLUE%]
 ItemDisplay[hp2 OR mp2]:
-
 ItemDisplay[hp3 CLVL<30]: %RED%[%GRAY%HP%RED%]
 ItemDisplay[hp4 CLVL<30]: %RED%[%WHITE%HP%RED%]
 ItemDisplay[mp3 CLVL<30]: %BLUE%[%GRAY%MP%BLUE%]
 ItemDisplay[mp4 CLVL<30]: %BLUE%[%WHITE%MP%BLUE%]
 ItemDisplay[hp3 OR mp3]:
-
 ItemDisplay[hp4 CLVL>70]:
 ItemDisplay[mp4 CLVL>70]:
-
-ItemDisplay[hp4]: %RED%[%GRAY%SHP%RED%] // Greater Healing potion
+ItemDisplay[hp4]: %RED%[%GRAY%HP%RED%] // Greater Healing potion
 ItemDisplay[hp5]: %RED%[%WHITE%SHP%RED%] // Super Healing potion
-ItemDisplay[mp4]: %BLUE%[%GRAY%SMP%BLUE%] // Greater Mana potion
+ItemDisplay[mp4]: %BLUE%[%GRAY%MP%BLUE%] // Greater Mana potion
 ItemDisplay[mp5]: %BLUE%[%WHITE%SMP%BLUE%] // Super Mana potion
-
 ItemDisplay[rvs]: %PURPLE%[%GRAY%R35%PURPLE%] // Rejuvenation potion
 ItemDisplay[rvl]: %PURPLE%[%WHITE%R70%PURPLE%] // Full Rejuvenation potion
 
 
 
-//Gems
-ItemDisplay[(gfv OR gfw OR gfg OR gfr OR gfb OR gfy OR skf) DIFFICULTY>0]:
+// Gems
+ItemDisplay[(gfv OR gfw OR gfg OR gfr OR gfb OR gfy OR skf) DIFFICULTY>1]:
 ItemDisplay[(gsv OR gsw OR gsg OR gsr OR gsb OR gsy OR sku) DIFFICULTY>1]:
-ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc) CLVL<19]:
+ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc) DIFFICULTY>0]:
 ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc)]:
-ItemDisplay[gzv]: %PURPLE%°%GRAY%Gem
-ItemDisplay[glw]: %WHITE%°%GRAY%Gem
-ItemDisplay[glg]: %GREEN%°%GRAY%Gem
-ItemDisplay[glr]: %RED%°%GRAY%Gem
-ItemDisplay[glb]: %BLUE%°%GRAY%Gem
-ItemDisplay[gly]: %YELLOW%°%GRAY%Gem
-ItemDisplay[skl]: %NL%%ORANGE%°%WHITE%SKULL Gem%NL%
-ItemDisplay[gpv]: %PURPLE%P %WHITE%Amethyst
-ItemDisplay[gpw]: %WHITE%P %WHITE%Diamond
-ItemDisplay[gpg]: %GREEN%P %WHITE%Emerald
-ItemDisplay[gpr]: %RED%P %WHITE%Ruby
-ItemDisplay[gpb]: %BLUE%P %WHITE%Sapphire
-ItemDisplay[gpy]: %YELLOW%P %WHITE%Topaz
-ItemDisplay[skz]: %ORANGE%°P %WHITE%Skull
+ItemDisplay[gzv]: %ORANGE%Flawless
+ItemDisplay[glw]: %ORANGE%Flawless
+ItemDisplay[glg]: %ORANGE%Flawless
+ItemDisplay[glr]: %ORANGE%Flawless
+ItemDisplay[glb]: %ORANGE%Flawless
+ItemDisplay[gly]: %ORANGE%Flawless
+ItemDisplay[skl]: %ORANGE%Flawless
+ItemDisplay[gpv]: %ORANGE%Perfect
+ItemDisplay[gpw]: %ORANGE%Perfect
+ItemDisplay[gpg]: %ORANGE%Perfect
+ItemDisplay[gpr]: %ORANGE%Perfect
+ItemDisplay[gpb]: %ORANGE%Perfect
+ItemDisplay[gpy]: %ORANGE%Perfect
+ItemDisplay[skz]: %ORANGE%Perfect
+
+
+
+// Rune
+ItemDisplay[RW]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[r01]: %ORANGE%%RUNENAME% %TAN%[1]
+ItemDisplay[r02]: %ORANGE%%RUNENAME% %TAN%[2]
+ItemDisplay[r03]: %ORANGE%%RUNENAME% %TAN%[3]
+ItemDisplay[r04]: %ORANGE%%RUNENAME% %TAN%[4]
+ItemDisplay[r05]: %ORANGE%%RUNENAME% %TAN%[5]
+ItemDisplay[r06]: %ORANGE%%RUNENAME% %TAN%[6]
+ItemDisplay[r07]: %ORANGE%%RUNENAME% %TAN%[7]
+ItemDisplay[r08]: %ORANGE%%RUNENAME% %TAN%[8]
+ItemDisplay[r09]: %ORANGE%%RUNENAME% %TAN%[9]
+ItemDisplay[r10]: %ORANGE%%RUNENAME% %TAN%[10]
+ItemDisplay[r11]: %ORANGE%%RUNENAME% %TAN%[11]
+ItemDisplay[r12]: %ORANGE%%RUNENAME% %TAN%[12]
+ItemDisplay[r13]: %ORANGE%%RUNENAME% %TAN%[13]
+ItemDisplay[r14]: %ORANGE%%RUNENAME% %TAN%[14]
+ItemDisplay[r15]: %ORANGE%%RUNENAME% %TAN%[15]
+ItemDisplay[r16]: %ORANGE%%RUNENAME% %TAN%[16]
+ItemDisplay[r17]: %ORANGE%%RUNENAME% %TAN%[17]
+ItemDisplay[r18]: %ORANGE%%RUNENAME% %TAN%[18]
+ItemDisplay[r19]: %ORANGE%%RUNENAME% %TAN%[19]
+ItemDisplay[r20]: %ORANGE%%RUNENAME% %TAN%[20]
+ItemDisplay[r21]: %PURPLE%%RUNENAME% %TAN%[21]
+ItemDisplay[r22]: %PURPLE%%RUNENAME% %TAN%[22]
+ItemDisplay[r23]: %PURPLE%%RUNENAME% %TAN%[23]
+ItemDisplay[r24]: %PURPLE%%RUNENAME% %TAN%[24]
+ItemDisplay[r25]: %PURPLE%%RUNENAME% %TAN%[25]
+ItemDisplay[r26]: %RED%%RUNENAME% %TAN%[26]
+ItemDisplay[r27]: %RED%%RUNENAME% %TAN%[27]
+ItemDisplay[r28]: %RED%%RUNENAME% %TAN%[28]
+ItemDisplay[r29]: %RED%%RUNENAME% %TAN%[29]
+ItemDisplay[r30]: %RED%%RUNENAME% %TAN%[30]
+ItemDisplay[r31]: %RED%%RUNENAME% %TAN%[31]
+ItemDisplay[r32]: %RED%%RUNENAME% %TAN%[32]
+ItemDisplay[r33]: %RED%%RUNENAME% %TAN%[33]
+
+
+// All Charms
+ItemDisplay[cm3 MAG !ID ILVL>90]: %PURPLE%»»»%BLUE%  %NAME%  %ORANGE%[%WHITE%%ILVL%%ORANGE%]
+ItemDisplay[cm1 MAG !ID]: %GREEN%»%BLUE%  %NAME%  %GRAY%[%ILVL%]
+ItemDisplay[cm2 MAG !ID]: %TAN%»»%BLUE%  %NAME%  %GRAY%[%ILVL%]
+ItemDisplay[cm3 MAG !ID]: %PURPLE%»»»%BLUE%  %NAME%  %GRAY%[%ILVL%]
+ItemDisplay[cm3 MAG ILVL>90]: %NAME% %ORANGE%[%WHITE%%ILVL%%ORANGE%]
+ItemDisplay[cm1 OR cm2 OR cm3]: %NAME% %GRAY%[%ILVL%]
+
+
+
+// Rings and amulets
+ItemDisplay[(rin OR amu) RARE !ID]: %TAN%»» %YELLOW%%NAME%%TAN% ««
+ItemDisplay[(rin OR amu) MAG ILVL>90]: %NAME% %WHITE%[%ILVL%]
+ItemDisplay[(rin OR amu) MAG]: %NAME% %GRAY%[%ILVL%]
 
 
 

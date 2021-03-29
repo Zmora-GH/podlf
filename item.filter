@@ -189,11 +189,11 @@ ItemDisplay[ELT MAG]: %NAME%
 ItemDisplay[ELT ETH RARE SOCK>0]: ETH %NAME% [%SOCKETS%]%RED%
 ItemDisplay[ELT ETH RARE]: ETH %NAME%%RED%
 ItemDisplay[ELT RARE SOCK>0]: %NAME% [%SOCKETS%]%RED%
-ItemDisplay[ELT RARE]: %NAME%%RED%**
+ItemDisplay[ELT RARE]: %NAME%%RED%
 ItemDisplay[ELT ETH UNI SOCK>0]: ETH %NAME% [%SOCKETS%] (uniq)%RED%
 ItemDisplay[ELT ETH UNI]: ETH %NAME% (uniq)%RED%
 ItemDisplay[ELT UNI]:   %NAME% (uniq)%RED%
 ItemDisplay[ELT ETH RW]: ETH %NAME% (runeword)%RED%
-ItemDisplay[ELT RW]: %NAME% (runeword)%RED%**
+ItemDisplay[ELT RW]: %NAME% (runeword)%RED%
 ItemDisplay[ELT SET SOCK>0]: %NAME% [%SOCKETS%]%RED%
 ItemDisplay[ELT SET]: %NAME%%RED%

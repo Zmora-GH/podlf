@@ -21,12 +21,12 @@ ItemDisplay[hp3 OR mp3]:
 ItemDisplay[hp4 CLVL>70]:
 ItemDisplay[mp4 CLVL>70]:
 
-ItemDisplay[hp4]: %RED%[%RED%H%GRAY%P%RED%]
-ItemDisplay[hp5]: %RED%[%RED%H%WHITE%P%RED%]
-ItemDisplay[mp4]: %BLUE%[%BLUE%H%GRAY%P%BLUE%]
-ItemDisplay[mp5]: %BLUE%[%BLUE%H%WHITE%P%BLUE%]
-ItemDisplay[rvs]: %PURPLE%[%GRAY%R35%PURPLE%]
-ItemDisplay[rvl]: %PURPLE%[%WHITE%R70%PURPLE%]
+ItemDisplay[hp4]: %RED%H%GRAY%P
+ItemDisplay[hp5]: %RED%H%WHITE%P
+ItemDisplay[mp4]: %BLUE%M%GRAY%P
+ItemDisplay[mp5]: %BLUE%M%WHITE%P
+ItemDisplay[rvs]: %PURPLE%R%GRAY%35
+ItemDisplay[rvl]: %PURPLE%R%WHITE%70
 
 // Gems
 ItemDisplay[(gfv OR gfw OR gfg OR gfr OR gfb OR gfy OR skf) DIFFICULTY>1]:
@@ -93,7 +93,7 @@ ItemDisplay[cm3 MAG ILVL>90]: %PURPLE% %NAME% %ORANGE%[%WHITE%%ILVL%%ORANGE%]
 ItemDisplay[cm1 OR cm2 OR cm3]: %NAME% %GRAY%[%ILVL%]
 
 // Rings and amulets
-ItemDisplay[(rin OR amu) RARE !ID]: %TAN%» %YELLOW%%NAME%%TAN% «
+ItemDisplay[(rin OR amu) RARE !ID]: %YELLOW%%NAME%
 ItemDisplay[(rin OR amu) MAG ILVL>90]: %NAME% %WHITE%[%ILVL%]
 ItemDisplay[(rin OR amu) MAG]: %NAME% %GRAY%[%ILVL%]
 
@@ -104,9 +104,9 @@ ItemDisplay[key]: %GRAY%Key
 ItemDisplay[tsc]: %BLUE%T%WHITE%p
 ItemDisplay[isc]: 
 ItemDisplay[leg]: %NAME%
-ItemDisplay[vps]: %GREEN%[%GRAY%S%GREEN%]
-ItemDisplay[wms]: %GREEN%[%GRAY%T%GREEN%]
-ItemDisplay[yps]: %GREEN%[%GRAY%A%GREEN%]
+ItemDisplay[vps]: %DGREEN% S
+ItemDisplay[wms]: %DGREEN% T
+ItemDisplay[yps]: %DGREEN% A
 
 // Show possible expensive, fewer-socketed white/magic items with vendor price
 ItemDisplay[(WP11 OR WP12 OR WP13) (NMAG OR MAG) !RW SOCK<2 PRICE>29999]: %TAN%$$$ 

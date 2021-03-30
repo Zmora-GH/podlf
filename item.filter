@@ -121,8 +121,8 @@ ItemDisplay[NORM CLVL>34 NMAG !RW]: // hide ALL normal white items from char lev
 ItemDisplay[NORM NMAG ETH !RW SOCK=0]: ETH %NAME%
 ItemDisplay[NORM NMAG ETH !RW]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[NORM NMAG !RW SOCK>0]: %NAME% [%SOCKETS%]
-ItemDisplay[NORM MAG ETH SOCK>1]: ETH %NAME% [%SOCKETS%]
-ItemDisplay[NORM MAG SOCK>1]: %NAME% [%SOCKETS%]
+ItemDisplay[NORM MAG ETH SOCK>1]:
+ItemDisplay[NORM MAG SOCK>1]:
 ItemDisplay[NORM ETH RARE SOCK=0]: ETH %NAME%
 ItemDisplay[NORM ETH RARE]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[NORM RARE SOCK=0]: %NAME%
@@ -137,39 +137,39 @@ ItemDisplay[NORM SET SOCK=0]:   %NAME%
 ItemDisplay[NORM SET]: %NAME% [%SOCKETS%]
 
 // EXCEPTIONAL ITEMS
-ItemDisplay[EXC NMAG ETH !RW SOCK>1]: ETH %NAME% [%SOCKETS%]%RED%
-ItemDisplay[EXC NMAG !RW SOCK>1]: %NAME% [%SOCKETS%]%RED%
-ItemDisplay[EXC NMAG !RW]: %NAME%%RED%
-ItemDisplay[EXC MAG ETH SOCK>1]: ETH %NAME% [%SOCKETS%]%RED%
-ItemDisplay[EXC MAG SOCK>1]: %NAME% [%SOCKETS%]%RED%
-ItemDisplay[EXC MAG]: %NAME%%RED%
-ItemDisplay[EXC ETH RARE SOCK>0]: ETH %NAME% [%SOCKETS%]%RED%
-ItemDisplay[EXC ETH RARE]: ETH %NAME%%RED%
-ItemDisplay[EXC RARE SOCK>0]: %NAME% [%SOCKETS%]%RED%
-ItemDisplay[EXC RARE]: %NAME%%RED%
-ItemDisplay[EXC ETH UNI SOCK>0]: ETH %NAME% [%SOCKETS%] (uniq)%RED%
-ItemDisplay[EXC ETH UNI]: ETH %NAME% (uniq)%RED%
-ItemDisplay[EXC UNI]:   %NAME% (uniq)%RED%
-ItemDisplay[EXC ETH RW]: ETH %NAME% (runeword)%RED%
-ItemDisplay[EXC RW]: %NAME% (runeword)%RED%
-ItemDisplay[EXC SET SOCK>0]: %NAME% [%SOCKETS%]%RED%
-ItemDisplay[EXC SET]: %NAME%%RED%
+ItemDisplay[EXC NMAG ETH !RW SOCK>1]: ETH %NAME% [%SOCKETS%]
+ItemDisplay[EXC NMAG !RW SOCK>1]: %NAME% [%SOCKETS%]
+ItemDisplay[EXC NMAG !RW]: %NAME%
+ItemDisplay[EXC MAG ETH SOCK>1]:
+ItemDisplay[EXC MAG SOCK>1]:
+ItemDisplay[EXC MAG]:
+ItemDisplay[EXC ETH RARE SOCK>0]: ETH %NAME% [%SOCKETS%]
+ItemDisplay[EXC ETH RARE]: ETH %NAME%
+ItemDisplay[EXC RARE SOCK>0]: %NAME% [%SOCKETS%]
+ItemDisplay[EXC RARE]: %NAME%
+ItemDisplay[EXC ETH UNI SOCK>0]: ETH %NAME% [%SOCKETS%] (uniq)
+ItemDisplay[EXC ETH UNI]: ETH %NAME% (uniq)
+ItemDisplay[EXC UNI]:   %NAME% (uniq)
+ItemDisplay[EXC ETH RW]: ETH %NAME% (runeword)
+ItemDisplay[EXC RW]: %NAME% (runeword)
+ItemDisplay[EXC SET SOCK>0]: %NAME% [%SOCKETS%]
+ItemDisplay[EXC SET]: %NAME%
 
 // ELITE ITEMS
-ItemDisplay[ELT NMAG ETH !RW SOCK>1]: ETH %NAME% [%SOCKETS%]%RED%
-ItemDisplay[ELT NMAG !RW SOCK>1]: %NAME% [%SOCKETS%]%RED%
-ItemDisplay[ELT NMAG !RW]: %NAME%%RED%
-ItemDisplay[ELT MAG ETH SOCK>1]: ETH %NAME% [%SOCKETS%]%RED%
-ItemDisplay[ELT MAG SOCK>1]: %NAME% [%SOCKETS%]%RED%
-ItemDisplay[ELT MAG]: %NAME%%RED%
-ItemDisplay[ELT ETH RARE SOCK>0]: ETH %NAME% [%SOCKETS%]%RED%
-ItemDisplay[ELT ETH RARE]: ETH %NAME%%RED%
-ItemDisplay[ELT RARE SOCK>0]: %NAME% [%SOCKETS%]%RED%
+ItemDisplay[ELT NMAG ETH !RW SOCK>1]: ETH %NAME% [%SOCKETS%]
+ItemDisplay[ELT NMAG !RW SOCK>1]: %NAME% [%SOCKETS%]
+ItemDisplay[ELT NMAG !RW]: %NAME%
+ItemDisplay[ELT MAG ETH SOCK>1]:
+ItemDisplay[ELT MAG SOCK>1]:
+ItemDisplay[ELT MAG]:
+ItemDisplay[ELT ETH RARE SOCK>0]: ETH %NAME% [%SOCKETS%]
+ItemDisplay[ELT ETH RARE]: ETH %NAME%
+ItemDisplay[ELT RARE SOCK>0]: %NAME% [%SOCKETS%]
 ItemDisplay[ELT RARE]: %NAME%%RED%
-ItemDisplay[ELT ETH UNI SOCK>0]: ETH %NAME% [%SOCKETS%] (uniq)%RED%
-ItemDisplay[ELT ETH UNI]: ETH %NAME% (uniq)%RED%
-ItemDisplay[ELT UNI]:   %NAME% (uniq)%RED%
-ItemDisplay[ELT ETH RW]: ETH %NAME% (runeword)%RED%
-ItemDisplay[ELT RW]: %NAME% (runeword)%RED%
-ItemDisplay[ELT SET SOCK>0]: %NAME% [%SOCKETS%]%RED%
-ItemDisplay[ELT SET]: %NAME%%RED%
+ItemDisplay[ELT ETH UNI SOCK>0]: ETH %NAME% [%SOCKETS%] (uniq)
+ItemDisplay[ELT ETH UNI]: ETH %NAME% (uniq)
+ItemDisplay[ELT UNI]:   %NAME% (uniq)
+ItemDisplay[ELT ETH RW]: ETH %NAME% (runeword)
+ItemDisplay[ELT RW]: %NAME% (runeword)
+ItemDisplay[ELT SET SOCK>0]: %NAME% [%SOCKETS%]
+ItemDisplay[ELT SET]: %NAME%

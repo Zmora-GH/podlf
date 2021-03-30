@@ -139,7 +139,7 @@ ItemDisplay[NORM SET]: %NAME% [%SOCKETS%]
 // EXCEPTIONAL ITEMS
 ItemDisplay[EXC NMAG ETH !RW SOCK>1]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[EXC NMAG !RW SOCK>1]: %NAME% [%SOCKETS%]
-ItemDisplay[EXC NMAG !RW]: %NAME%
+ItemDisplay[EXC NMAG !RW]:
 ItemDisplay[EXC MAG ETH SOCK>1]:
 ItemDisplay[EXC MAG SOCK>1]:
 ItemDisplay[EXC MAG]:
@@ -158,7 +158,7 @@ ItemDisplay[EXC SET]: %NAME%
 // ELITE ITEMS
 ItemDisplay[ELT NMAG ETH !RW SOCK>1]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[ELT NMAG !RW SOCK>1]: %NAME% [%SOCKETS%]
-ItemDisplay[ELT NMAG !RW]: %NAME%
+ItemDisplay[ELT NMAG !RW]:
 ItemDisplay[ELT MAG ETH SOCK>1]:
 ItemDisplay[ELT MAG SOCK>1]:
 ItemDisplay[ELT MAG]:

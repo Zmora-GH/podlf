@@ -39,13 +39,13 @@ ItemDisplay[glr]: %ORANGE%Flawless
 ItemDisplay[glb]: %ORANGE%Flawless
 ItemDisplay[gly]: %ORANGE%Flawless
 ItemDisplay[skl]: %ORANGE%Flawless
-ItemDisplay[gpv]: %ORANGE%Perfect
-ItemDisplay[gpw]: %ORANGE%Perfect
-ItemDisplay[gpg]: %ORANGE%Perfect
-ItemDisplay[gpr]: %ORANGE%Perfect
-ItemDisplay[gpb]: %ORANGE%Perfect
-ItemDisplay[gpy]: %ORANGE%Perfect
-ItemDisplay[skz]: %ORANGE%Perfect
+ItemDisplay[gpv]: %ORANGE%Perfect %NOTIFY-ORANGE%
+ItemDisplay[gpw]: %ORANGE%Perfect %NOTIFY-ORANGE%
+ItemDisplay[gpg]: %ORANGE%Perfect %NOTIFY-ORANGE%
+ItemDisplay[gpr]: %ORANGE%Perfect %NOTIFY-ORANGE%
+ItemDisplay[gpb]: %ORANGE%Perfect %NOTIFY-ORANGE%
+ItemDisplay[gpy]: %ORANGE%Perfect %NOTIFY-ORANGE%
+ItemDisplay[skz]: %ORANGE%Perfect %NOTIFY-ORANGE%
 
 // Rune
 ItemDisplay[RW]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
@@ -64,24 +64,24 @@ ItemDisplay[r12]: %ORANGE%%RUNENAME% %TAN%[12]
 ItemDisplay[r13]: %ORANGE%%RUNENAME% %TAN%[13]
 ItemDisplay[r14]: %ORANGE%%RUNENAME% %TAN%[14]
 ItemDisplay[r15]: %ORANGE%%RUNENAME% %TAN%[15]
-ItemDisplay[r16]: %PURPLE%%RUNENAME% %TAN%[16]
-ItemDisplay[r17]: %PURPLE%%RUNENAME% %TAN%[17]
-ItemDisplay[r18]: %PURPLE%%RUNENAME% %TAN%[18]
-ItemDisplay[r19]: %PURPLE%%RUNENAME% %TAN%[19]
-ItemDisplay[r20]: %PURPLE%%RUNENAME% %TAN%[20]
-ItemDisplay[r21]: %PURPLE%%RUNENAME% %TAN%[21]
-ItemDisplay[r22]: %PURPLE%%RUNENAME% %TAN%[22]
-ItemDisplay[r23]: %PURPLE%%RUNENAME% %TAN%[23]
-ItemDisplay[r24]: %RED%%RUNENAME% %TAN%[24]
-ItemDisplay[r25]: %RED%%RUNENAME% %TAN%[25]
-ItemDisplay[r26]: %RED%%RUNENAME% %TAN%[26]
-ItemDisplay[r27]: %RED%%RUNENAME% %TAN%[27]
-ItemDisplay[r28]: %RED%%RUNENAME% %TAN%[28]
-ItemDisplay[r29]: %RED%%RUNENAME% %TAN%[29]
-ItemDisplay[r30]: %RED%%RUNENAME% %TAN%[30]
-ItemDisplay[r31]: %RED%%RUNENAME% %TAN%[31]
-ItemDisplay[r32]: %RED%%RUNENAME% %TAN%[32]
-ItemDisplay[r33]: %RED%%RUNENAME% %TAN%[33]
+ItemDisplay[r16]: %PURPLE%%RUNENAME% %TAN%[16] %NOTIFY-PURPLE%
+ItemDisplay[r17]: %PURPLE%%RUNENAME% %TAN%[17] %NOTIFY-PURPLE%
+ItemDisplay[r18]: %PURPLE%%RUNENAME% %TAN%[18] %NOTIFY-PURPLE%
+ItemDisplay[r19]: %PURPLE%%RUNENAME% %TAN%[19] %NOTIFY-PURPLE%
+ItemDisplay[r20]: %PURPLE%%RUNENAME% %TAN%[20] %NOTIFY-PURPLE%
+ItemDisplay[r21]: %PURPLE%%RUNENAME% %TAN%[21] %NOTIFY-PURPLE%
+ItemDisplay[r22]: %PURPLE%%RUNENAME% %TAN%[22] %NOTIFY-PURPLE%
+ItemDisplay[r23]: %PURPLE%%RUNENAME% %TAN%[23] %NOTIFY-PURPLE%
+ItemDisplay[r24]: %RED%%RUNENAME% %TAN%[24] %NOTIFY-RED%
+ItemDisplay[r25]: %RED%%RUNENAME% %TAN%[25] %NOTIFY-RED%
+ItemDisplay[r26]: %RED%%RUNENAME% %TAN%[26] %NOTIFY-RED%
+ItemDisplay[r27]: %RED%%RUNENAME% %TAN%[27] %NOTIFY-RED%
+ItemDisplay[r28]: %RED%%RUNENAME% %TAN%[28] %NOTIFY-RED%
+ItemDisplay[r29]: %RED%%RUNENAME% %TAN%[29] %NOTIFY-RED%
+ItemDisplay[r30]: %RED%%RUNENAME% %TAN%[30] %NOTIFY-RED%
+ItemDisplay[r31]: %RED%%RUNENAME% %TAN%[31] %NOTIFY-RED%
+ItemDisplay[r32]: %RED%%RUNENAME% %TAN%[32] %NOTIFY-RED%
+ItemDisplay[r33]: %RED%%RUNENAME% %TAN%[33] %NOTIFY-RED%
 
 // All Charms
 ItemDisplay[cm3 MAG !ID ILVL>90]: %PURPLE% Grand %ORANGE%[%WHITE%%ILVL%%ORANGE%]

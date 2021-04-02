@@ -157,8 +157,8 @@ ItemDisplay[EXC SET SOCK>0]: %NAME% [%SOCKETS%]
 ItemDisplay[EXC SET]: %NAME%
 
 // ELITE ITEMS
-ItemDisplay[ELT NMAG ETH !RW SOCK>1]: ETH %NAME% [%SOCKETS%]
-ItemDisplay[ELT NMAG !RW SOCK>1]: %NAME% [%SOCKETS%]
+ItemDisplay[ELT NMAG ETH !RW SOCK>1]: %DGREEN%ETH %NAME% [%SOCKETS%]
+ItemDisplay[ELT NMAG !RW SOCK>1]: %DGREEN%%NAME% [%SOCKETS%]
 ItemDisplay[ELT NMAG !RW]:
 ItemDisplay[ELT MAG ETH SOCK>1]:
 ItemDisplay[ELT MAG SOCK>1]:

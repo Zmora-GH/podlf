@@ -174,3 +174,7 @@ ItemDisplay[ELT ETH RW]: ETH %NAME% (runeword)
 ItemDisplay[ELT RW]: %NAME% (runeword)
 ItemDisplay[ELT SET SOCK>0]: %NAME% [%SOCKETS%]
 ItemDisplay[ELT SET]: %NAME%
+
+// NTF 
+ItemDisplay[SET]: %NOTIFY-GREEN%
+ItemDisplay[UNI]: %NOTIFY-TAN%

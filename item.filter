@@ -98,6 +98,7 @@ ItemDisplay[(rin OR amu) MAG ILVL>90]: %NAME% %WHITE%[%ILVL%]
 ItemDisplay[(rin OR amu) MAG]: %NAME% %GRAY%[%ILVL%]
 
 // Trsh Key Tp Id Leg +
+ItemDisplay[jew]:  %NAME% 
 ItemDisplay[(aq2 OR cq2) (NMAG OR MAG) CLVL>5]:
 ItemDisplay[gpm OR opm OR opl OR ops OR gps OR gpl AND CLVL>1]:
 ItemDisplay[key]: %GRAY%Key

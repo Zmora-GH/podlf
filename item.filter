@@ -25,8 +25,8 @@ ItemDisplay[hp4]: %RED%H%GRAY%P
 ItemDisplay[hp5]: %RED%H%WHITE%P
 ItemDisplay[mp4]: %BLUE%M%GRAY%P
 ItemDisplay[mp5]: %BLUE%M%WHITE%P
-ItemDisplay[rvs]: %PURPLE%R%GRAY%35
-ItemDisplay[rvs CLVL>75]:
+ItemDisplay[rvs CLVL<75]: %PURPLE%R%GRAY%35
+ItemDisplay[rvs CLVL>74]:
 ItemDisplay[rvl]: %PURPLE%R%WHITE%70
 
 // Gems

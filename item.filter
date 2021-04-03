@@ -1,6 +1,7 @@
 // GOLD
 ItemDisplay[CLVL>1 GOLD<1000]:
 ItemDisplay[CLVL>60 GOLD<5000]:
+ItemDisplay[CLVL>80 GOLD<10000]:
 
 // POTIONS
 ItemDisplay[hp1 CLVL<15]: %RED%[%GRAY%HP%RED%]
@@ -113,12 +114,6 @@ ItemDisplay[vps]:
 ItemDisplay[wms]:
 ItemDisplay[yps]: %DGREEN%[%GREEN%A%DGREEN%]
 
-// Show possible expensive, fewer-socketed white/magic items with vendor price
-ItemDisplay[(WP11 OR WP12 OR WP13) (NMAG OR MAG) !RW SOCK<2 PRICE>29999]: %TAN%$$$ 
-ItemDisplay[CL1 (NMAG OR MAG) !RW SOCK<2 PRICE>29999]: %TAN%$$$
-ItemDisplay[CL2 (NMAG OR MAG) !RW SOCK<2 PRICE>29999]: %TAN%$$$
-ItemDisplay[CL4 (NMAG OR MAG) !RW SOCK<2 PRICE>29999]: %TAN%$$$
-ItemDisplay[CL6 (NMAG OR MAG) !RW SOCK<2 PRICE>29999]: %TAN%$$$
 
 // NORMAL ITEMS
 ItemDisplay[NORM CLVL>4  NMAG !RW INF]: // hide inferior items from char level 5

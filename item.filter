@@ -26,6 +26,7 @@ ItemDisplay[hp5]: %RED%H%WHITE%P
 ItemDisplay[mp4]: %BLUE%M%GRAY%P
 ItemDisplay[mp5]: %BLUE%M%WHITE%P
 ItemDisplay[rvs]: %PURPLE%R%GRAY%35
+ItemDisplay[rvs CLVL>75]:
 ItemDisplay[rvl]: %PURPLE%R%WHITE%70
 
 // Gems
@@ -104,7 +105,7 @@ ItemDisplay[(rin OR amu) SET]: %NAME% %TAN%[%ILVL%] %NOTIFY-GREEN%
 ItemDisplay[jew]:  %NAME% 
 ItemDisplay[(aq2 OR cq2) (NMAG OR MAG) CLVL>5]:
 ItemDisplay[gpm OR opm OR opl OR ops OR gps OR gpl AND CLVL>1]:
-ItemDisplay[key]: %GRAY%Key
+ItemDisplay[key]:
 ItemDisplay[tsc]:
 ItemDisplay[isc]: 
 ItemDisplay[leg]: %NAME%

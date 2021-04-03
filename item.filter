@@ -98,6 +98,7 @@ ItemDisplay[(rin OR amu) RARE !ID]: %YELLOW%%NAME%
 ItemDisplay[(rin OR amu) MAG ILVL>90]: %NAME% %WHITE%[%ILVL%]
 ItemDisplay[(rin OR amu) MAG]: %NAME% %GRAY%[%ILVL%]
 ItemDisplay[(rin OR amu) UNI]: %NAME% %TAN%[%ILVL%] %NOTIFY-TAN%
+ItemDisplay[(rin OR amu) SET]: %NAME% %TAN%[%ILVL%] %NOTIFY-GREEN%
 
 // Trsh Key Tp Id Leg +
 ItemDisplay[jew]:  %NAME% 

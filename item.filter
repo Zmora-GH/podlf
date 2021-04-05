@@ -86,6 +86,16 @@ ItemDisplay[r31]: %RED%%RUNENAME% %TAN%[31] %NOTIFY-RED%
 ItemDisplay[r32]: %RED%%RUNENAME% %TAN%[32] %NOTIFY-RED%
 ItemDisplay[r33]: %RED%%RUNENAME% %TAN%[33] %NOTIFY-RED%
 
+
+// Maps
+ItemDisplay[ma1]: %ORANGE%%NAME%% %NOTIFY-ORANGE%
+ItemDisplay[ma2]: %ORANGE%%NAME%% %NOTIFY-ORANGE%
+ItemDisplay[ma3]: %ORANGE%%NAME%% %NOTIFY-ORANGE%
+ItemDisplay[ma4]: %ORANGE%%NAME%% %NOTIFY-ORANGE%
+ItemDisplay[ma5]: %ORANGE%%NAME%% %NOTIFY-ORANGE%
+ItemDisplay[ma6]: %ORANGE%%NAME%% %NOTIFY-ORANGE%
+
+
 // All Charms
 ItemDisplay[cm3 MAG !ID ILVL>90]: %PURPLE% Grand %ORANGE%[%WHITE%%ILVL%%ORANGE%]
 ItemDisplay[cm1 MAG !ID]: %PURPLE% Small %GRAY%[%ILVL%]

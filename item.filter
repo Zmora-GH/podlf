@@ -110,7 +110,7 @@ ItemDisplay[(rin OR amu) RARE !ID]: %YELLOW%%NAME%
 ItemDisplay[(rin OR amu) MAG ILVL>90]: %NAME% %WHITE%[%ILVL%]
 ItemDisplay[(rin OR amu) MAG]: %NAME% %GRAY%[%ILVL%]
 ItemDisplay[(rin OR amu) UNI]: %NAME% %TAN%[%ILVL%] %NOTIFY-TAN%
-ItemDisplay[(rin OR amu) SET]: %NAME% %TAN%[%ILVL%] %NOTIFY-GREEN%
+ItemDisplay[(rin OR amu) SET]: %NAME% %GREEN%[%ILVL%] %NOTIFY-GREEN%
 
 // Trsh Key Tp Id Leg +
 ItemDisplay[jew]:  %NAME% 
@@ -126,9 +126,9 @@ ItemDisplay[yps]: %DGREEN%[%GREEN%A%DGREEN%]
 
 
 // NORMAL ITEMS
-ItemDisplay[NORM CLVL>4  NMAG !RW INF]: // hide inferior items from char level 5
+ItemDisplay[NORM CLVL>4  NMAG !RW INF]: 
 ItemDisplay[NORM CLVL>14 (NMAG OR MAG) !RW SOCK<2]:
-ItemDisplay[NORM CLVL>34 NMAG !RW]: // hide ALL normal white items from char level 35
+ItemDisplay[NORM CLVL>34 NMAG !RW]: 
 ItemDisplay[NORM NMAG ETH !RW SOCK=0]: ETH %NAME%
 ItemDisplay[NORM NMAG ETH !RW]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[NORM NMAG !RW SOCK>0]: %NAME% [%SOCKETS%]
